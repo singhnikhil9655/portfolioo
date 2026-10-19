@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nikhil Kumar Singh | B.Tech CSE Student &amp; Software Developer</title>
+<meta name="description" content="Portfolio of Nikhil Kumar Singh, a B.Tech CSE student building software, machine learning, computer vision and Web3 projects.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nikhil Kumar Singh | Software Developer">
+<meta property="og:description" content="Building ideas into real impact. Projects in Web3, computer vision and deep learning.">
+<meta property="og:image" content="images/profile.jpg">
+<meta name="theme-color" content="#0b0b10">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238b5cf6'/%3E%3Ctext x='16' y='22' font-size='16' font-family='sans-serif' font-weight='700' text-anchor='middle' fill='white'%3ENS%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="wrap nav" aria-label="Main">
+    <a href="#home" class="brand" aria-label="Nikhil Kumar Singh, home">NS</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="status"><span class="dot" aria-hidden="true"></span>Open to internships and collaborations</p>
+      <h1>Building ideas into <span class="grad">real impact.</span></h1>
+      <p class="role">Nikhil Kumar Singh &middot; B.Tech CSE Student &amp; Software Developer</p>
+      <p class="intro">I’m a Computer Science student passionate about building useful digital products through software development, machine learning, computer vision, and Web3 technologies. I enjoy solving challenging problems, experimenting with new ideas, and turning concepts into working solutions.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">Explore My Work</a>
+        <a class="btn ghost" href="#contact">Get in Touch</a>
+      </div>
+    </div>
+    <div class="orbit">
+      <div class="ring r1" aria-hidden="true"><i></i></div>
+      <div class="ring r2" aria-hidden="true"><i></i></div>
+      <div class="ring r3" aria-hidden="true"><i></i></div>
+      <img class="core" src="images/profile.jpg" alt="Portrait of Nikhil Kumar Singh in a navy suit" width="640" height="640" fetchpriority="high">
+    </div>
+  </div>
+  <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span></span></a>
+</section>
+
+<!-- About -->
+<section id="about" class="reveal">
+  <div class="wrap about-grid">
+    <div>
+      <h2>About me</h2>
+      <p>I’m pursuing a B.Tech in Computer Science and Engineering at ABES Institute of Technology (ABESIT). I like software engineering because every problem is a puzzle with a real user at the end of it.</p>
+      <p>I practice Data Structures and Algorithms on CodeChef, prototype quickly to test ideas, and join hackathons to build with teammates under pressure. My projects span machine learning, computer vision and Web3, and I want each one to be useful, not just impressive.</p>
+    </div>
+    <ul class="facts">
+      <li><strong>Education</strong>B.Tech CSE, ABESIT</li>
+      <li><strong>Practice</strong>Competitive programming</li>
+      <li><strong>Interests</strong>ML, computer vision, Web3</li>
+      <li><strong>Style</strong>Rapid prototyping, teamwork</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="reveal">
+  <div class="wrap">
+    <h2>Featured projects</h2>
+    <p class="lede">Open a card for the problem, goals and workflow. Visuals are illustrative CSS mockups, not screenshots of live systems.</p>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="chip-btn active" data-filter="all" aria-pressed="true">All</button>
+      <button class="chip-btn" data-filter="web3" aria-pressed="false">Web3</button>
+      <button class="chip-btn" data-filter="ai" aria-pressed="false">AI/ML</button>
+    </div>
+    <div class="grid" id="projectGrid">
+
+      <article class="card" data-cat="web3">
+        <div class="art art-chain" aria-hidden="true"><b></b><b></b><b></b></div>
+        <p class="cat">Web3 / Blockchain</p>
+        <h3>CropTrust</h3>
+        <p>A blockchain-based agricultural platform designed to connect farmers and buyers through smart contracts and QR-code supply-chain traceability.</p>
+        <ul class="tags"><li>Polygon</li><li>Smart contracts</li><li>React</li><li>QR codes</li></ul>
+        <button class="btn ghost small" data-open="croptrust">View case study</button>
+        <div class="case" hidden>
+          <h4>Problem</h4><p>Buyers rarely see where produce came from, and farmers have limited direct access to buyers.</p>
+          <h4>Goals</h4><ul><li>Supply-chain transparency</li><li>QR-based product tracking</li><li>Smart-contract integration</li><li>Farmer-to-buyer connectivity</li></ul>
+          <h4>Workflow</h4><p>Farmer lists a batch, a smart contract on Polygon records it, a QR code on the product links to that record, and the buyer scans to verify the farm-to-market trail.</p>
+          <h4>Technologies</h4><p>Polygon smart contracts, React, QR-code generation.</p>
+          <h4>Results</h4><p>No verified metrics published yet.</p>
+        </div>
+      </article>
+
+      <article class="card" data-cat="ai">
+        <div class="art art-pulse" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b></div>
+        <p class="cat">Machine Learning / Computer Vision</p>
+        <h3>EVAI Guardian</h3>
+        <p>A dual-purpose software concept for electric vehicle battery-health monitoring and driver drowsiness detection using machine learning and computer vision.</p>
+        <ul class="tags"><li>Computer vision</li><li>Machine learning</li><li>Digital twin</li><li>Python</li></ul>
+        <button class="btn ghost small" data-open="evai">View case study</button>
+        <div class="case" hidden>
+          <h4>Problem</h4><p>Driver fatigue and battery degradation are both safety risks in electric vehicles, and they are usually monitored separately.</p>
+          <h4>Goals</h4><ul><li>Battery-health visualization</li><li>Driver monitoring</li><li>Computer-vision workflow</li><li>Data-driven safety insights</li></ul>
+          <h4>Workflow</h4><p>A camera feed is analyzed for signs of driver fatigue while battery data feeds a digital-twin view of battery health. Both streams produce one safety summary.</p>
+          <h4>Technologies</h4><p>Python, computer vision, machine learning.</p>
+          <h4>Status</h4><p>A software concept. It is not a deployed in-vehicle system.</p>
+        </div>
+      </article>
+
+      <article class="card" data-cat="ai">
+        <div class="art art-bars" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+        <p class="cat">AI / Deep Learning</p>
+        <h3>Credit Card Fraud Detection</h3>
+        <p>A machine-learning project exploring suspicious transaction detection using a hybrid approach involving deep neural networks.</p>
+        <ul class="tags"><li>Autoencoder</li><li>Attention</li><li>Python</li><li>Explainable AI</li></ul>
+        <button class="btn ghost small" data-open="fraud">View case study</button>
+        <div class="case" hidden>
+          <h4>Problem</h4><p>Fraud is rare compared with legitimate transactions, so models must handle heavy class imbalance and explain their decisions.</p>
+          <h4>Goals</h4><ul><li>Transaction classification</li><li>Data preprocessing</li><li>Class-imbalance handling</li><li>Precision, recall and model evaluation</li></ul>
+          <h4>Workflow</h4><p>Preprocess transactions, train a hybrid attention-autoencoder model, then evaluate with precision and recall rather than accuracy alone.</p>
+          <h4>Technologies</h4><p>Python, deep neural networks, autoencoders, attention.</p>
+          <h4>Results</h4><p>No verified metrics published yet.</p>
+        </div>
+      </article>
+    </div>
+    <p class="more-note">More code on <a href="https://github.com/singhnikhil9655" target="_blank" rel="noopener">GitHub</a>.</p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="reveal">
+  <div class="wrap">
+    <h2>Skills and technologies</h2>
+    <div class="skill-grid">
+      <div class="panel"><h3>Programming languages</h3><ul class="tags"><li>Python</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li></ul></div>
+      <div class="panel"><h3>AI and machine learning</h3><ul class="tags"><li>Machine learning</li><li>Computer vision</li><li>Deep learning</li></ul></div>
+      <div class="panel"><h3>Web and emerging tech</h3><ul class="tags"><li>Web development</li><li>Web3</li><li>Smart contracts</li></ul></div>
+      <div class="panel"><h3>Development practices</h3><ul class="tags"><li>Problem solving</li><li>Rapid prototyping</li><li>Collaborative development</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- Achievements -->
+<section id="achievements" class="reveal">
+  <div class="wrap">
+    <h2>Achievements</h2>
+    <p class="lede">Hackathons I’ve taken part in and courses I’ve completed. Select a certificate to enlarge it.</p>
+    <h3 class="sub">Hackathons</h3>
+    <div class="cert-grid wide">
+      <article class="cert portrait">
+        <button class="cert-thumb" type="button" data-full="images/hacknation-2-0.jpg" data-alt="Certificate of Participation for HackNation 2.0, awarded to Nikhil Kumar Singh" aria-label="Enlarge: HackNation 2.0"><img src="images/hacknation-2-0.jpg" alt="Certificate of Participation for HackNation 2.0, awarded to Nikhil Kumar Singh" loading="lazy"></button>
+        <h4>HackNation 2.0</h4>
+        <p class="cert-meta">Shivalik University, Dehradun &middot; 7&ndash;8 October 2026</p>
+        <p>Certificate of participation in a national-level 30-hour hackathon.</p>
+        <p class="cert-links"></p>
+      </article>
+      <article class="cert ">
+        <button class="cert-thumb" type="button" data-full="images/hacksphere-2-0.jpg" data-alt="Certificate of Merit or Participation for Hacksphere 2.0, awarded to Nikhil Kumar Singh of ABESIT" aria-label="Enlarge: Hacksphere 2.0"><img src="images/hacksphere-2-0.jpg" alt="Certificate of Merit or Participation for Hacksphere 2.0, awarded to Nikhil Kumar Singh of ABESIT" loading="lazy"></button>
+        <h4>Hacksphere 2.0</h4>
+        <p class="cert-meta">Ideal Institute of Management and Technology, Delhi &middot; 5 October 2026</p>
+        <p>Certificate of merit/participation for commendable performance. No position is listed on the certificate.</p>
+        <p class="cert-links"></p>
+      </article>
+    </div>
+    <h3 class="sub">Certifications</h3>
+    <div class="cert-grid">
+      <article class="cert ">
+        <button class="cert-thumb" type="button" data-full="images/infosys-programming-in-c.jpg" data-alt="Infosys Springboard course completion certificate for Programming in C" aria-label="Enlarge: Programming in C"><img src="images/infosys-programming-in-c.jpg" alt="Infosys Springboard course completion certificate for Programming in C" loading="lazy"></button>
+        <h4>Programming in C</h4>
+        <p class="cert-meta">Infosys Springboard &middot; 5 December 2025</p>
+        <p>Course completion certificate.</p>
+        <p class="cert-links"><a href="certificates/infosys-programming-in-c.pdf" target="_blank" rel="noopener">View PDF</a><a href="https://verify.onwingspan.com" target="_blank" rel="noopener">Verify</a></p>
+      </article>
+      <article class="cert ">
+        <button class="cert-thumb" type="button" data-full="images/infosys-soft-skills.jpg" data-alt="Infosys Springboard course completion certificate for Soft Skills Training Courses" aria-label="Enlarge: Soft Skills Training Courses"><img src="images/infosys-soft-skills.jpg" alt="Infosys Springboard course completion certificate for Soft Skills Training Courses" loading="lazy"></button>
+        <h4>Soft Skills Training Courses</h4>
+        <p class="cert-meta">Infosys Springboard &middot; completed 5 February 2026</p>
+        <p>Course completion certificate, issued 9 March 2026.</p>
+        <p class="cert-links"><a href="certificates/infosys-soft-skills.pdf" target="_blank" rel="noopener">View PDF</a><a href="https://verify.onwingspan.com" target="_blank" rel="noopener">Verify</a></p>
+      </article>
+      <article class="cert ">
+        <button class="cert-thumb" type="button" data-full="images/infosys-basics-of-python.jpg" data-alt="Infosys Springboard course completion certificate for Basics of Python" aria-label="Enlarge: Basics of Python"><img src="images/infosys-basics-of-python.jpg" alt="Infosys Springboard course completion certificate for Basics of Python" loading="lazy"></button>
+        <h4>Basics of Python</h4>
+        <p class="cert-meta">Infosys Springboard &middot; 8 August 2026</p>
+        <p>Course completion certificate.</p>
+        <p class="cert-links"><a href="certificates/infosys-basics-of-python.pdf" target="_blank" rel="noopener">View PDF</a><a href="https://verify.onwingspan.com" target="_blank" rel="noopener">Verify</a></p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Journey -->
+<section id="journey" class="reveal">
+  <div class="wrap">
+    <h2>Education and journey</h2>
+    <ol class="timeline">
+      <li><span class="when">Now</span><h3>B.Tech in Computer Science and Engineering</h3><p>ABES Institute of Technology (ABESIT).</p></li>
+      <li><span class="when">Ongoing</span><h3>Learning and building</h3><p>Practicing algorithms on CodeChef and building projects in web, AI and Web3.</p></li>
+      <li><span class="when">Hackathons</span><h3>Building with teams</h3><p>Hacknovate 7.0, Stellar Build Station, Monad Blitz, Grand Hack IPEC, Hacksphere 2.0 and HackNation 2.0.</p></li>
+      <li><span class="when">Next</span><h3>Internships and collaborations</h3><p>Looking for software roles and projects where I can learn and ship useful work.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="reveal">
+  <div class="wrap contact">
+    <h2>Let’s build something meaningful.</h2>
+    <p class="lede">Email me directly, find me on GitHub or LinkedIn, or use the form to open a pre-filled email.</p>
+    <div class="actions">
+      <a class="btn primary" href="mailto:Singh.nikhil9655@gmail.com">Singh.nikhil9655@gmail.com</a>
+      <button class="btn ghost" id="copyEmail" type="button">Copy email</button>
+      <a class="btn ghost" href="https://github.com/singhnikhil9655" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/nikhil-kumar-singh-439b48388/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p class="sr-live" id="copyMsg" role="status"></p>
+    <form id="contactForm" novalidate>
+      <p class="hint">This form has no server. Sending opens your email app with the message filled in.</p>
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" autocomplete="name" required>
+      <label for="email">Your email</label>
+      <input id="email" name="email" type="email" autocomplete="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button class="btn primary" type="submit">Open email draft</button>
+      <p id="formMsg" class="form-msg" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div><strong>Nikhil Kumar Singh</strong><p>Building ideas into real impact.</p></div>
+    <div class="foot-links">
+      <a href="https://github.com/singhnikhil9655" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/nikhil-kumar-singh-439b48388/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:Singh.nikhil9655@gmail.com">Email</a>
+      <a href="#home">Back to top</a>
+    </div>
+    <p class="copy">&copy; <span id="year">2026</span> Nikhil Kumar Singh</p>
+  </div>
+</footer>
+
+<dialog id="modal" aria-labelledby="modalTitle">
+  <div class="modal-body">
+    <button class="close" id="modalClose" aria-label="Close case study">&times;</button>
+    <p class="cat" id="modalCat"></p>
+    <h3 id="modalTitle"></h3>
+    <div id="modalContent"></div>
+    <div class="actions">
+      <a class="btn ghost small" href="https://github.com/singhnikhil9655" target="_blank" rel="noopener">GitHub profile</a>
+      <button class="btn primary small" id="modalBack" type="button">Back to projects</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="lightbox" aria-label="Certificate preview">
+  <div class="modal-body">
+    <button class="close" id="lightClose" aria-label="Close preview">&times;</button>
+    <img id="lightImg" src="" alt="">
+  </div>
+</dialog>
+
+<script src="script.js" defer></script>
+</body>
+</html>
